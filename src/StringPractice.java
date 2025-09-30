@@ -1,9 +1,11 @@
 public class StringPractice {
   public static void main(String[] args) {
     // Create a string with at least 5 characters and assign it to a variable
-
+    String[] fruits = {"Apple", "Mango", "Pineapple", "Kiwi", "Watermelon"};
     // Find the length of the string
-
+    for ( String fruit : fruits) {
+      System.out.println("The length of " + fruit + " is " + fruit.length());
+    }
     // Concatenate (add) two strings together and reassign the result
 
     // Find the value of the character at index 3
