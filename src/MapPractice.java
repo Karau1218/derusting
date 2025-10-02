@@ -30,11 +30,17 @@ public class MapPractice {
       System.out.println("The map does not contain the value of 5");
     }
     // Iterate over the keys of the Map, printing each key
-
+    for (String key : map.keySet()) {
+      System.out.println(key);
+    }
     // Iterate over the values of the map, printing each value
-
+    for (Integer value : map.values()) {
+      System.out.println(value);
+    }
     // Iterate over the entries in the map, printing each key and value
-
+    for (HashMap.Entry<String, Integer> entry : map.entrySet()) {
+      System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
+    }
     /*
      * Usage tip!
      * 
