@@ -1,4 +1,4 @@
-import java.util.ArrayList;   //DONE WITH FILE DELETE THIS PART
+import java.util.ArrayList;   
 import java.util.Collections;
 
 public class ListPractice {

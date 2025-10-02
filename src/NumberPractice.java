@@ -1,5 +1,5 @@
-public class NumberPractice {
-  public static void main(String args[]) {
+public class NumberPractice {   
+public static void main(String args[]) {
     // Create a float with a negative value and assign it to a variable
 float negative_Float = -20;
     // Create an int with a positive value and assign it to a variable
@@ -11,7 +11,8 @@ int remainder = positive_Int % 3;
     // (A number is even if it has a remainder of zero when divided by 2)
     // Use an if-else to print "Even" if the number is even and "Odd"
     // if the number is odd.
-if (remainder == 0) {
+    int evenCheck = positive_Int % 2;
+if (evenCheck == 0) {
   System.out.println("Even");
 }else {
   System.out.println("Odd");

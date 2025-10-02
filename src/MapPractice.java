@@ -1,4 +1,4 @@
-import java.util.HashMap;   //DONE WITH FILE DELETE THIS PART
+import java.util.HashMap;   
 
 public class MapPractice {
   public static void main(String[] args) {

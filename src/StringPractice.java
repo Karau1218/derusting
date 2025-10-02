@@ -1,4 +1,4 @@
-import java.util.ArrayList;  //DONE WITH FILE DELETE THIS PART
+import java.util.ArrayList;  
 
 public class StringPractice {
   public static void main(String[] args) {
