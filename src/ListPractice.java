@@ -1,8 +1,9 @@
 import java.util.ArrayList;
 import java.util.Collections;
+
 public class ListPractice {
 
-
+//DONE WITH FILE DELETE THIS PART
   public static void main(String[] args) {
     // Create an empty ArrayList of Strings and assign it to a variable of type List
       ArrayList<String> list = new ArrayList<String>();
@@ -29,8 +30,10 @@ list.contains("Pineapple");
     Collections.sort(list);
     // Iterate over the list using a for-each loop
     // Print each value on a second line
-    for (String fruit : list) {
-      System.out.println(fruit);
+    for (int i = 0; i < list.size(); i++) {
+      System.out.println(list.get(i));
+    }
+
     }
     /*
      * Usage tip!
@@ -42,4 +45,3 @@ list.contains("Pineapple");
      * index values a for-each loop is cleaner.
      */
   }
-}
