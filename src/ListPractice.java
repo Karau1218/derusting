@@ -1,9 +1,9 @@
-import java.util.ArrayList;
+import java.util.ArrayList;   //DONE WITH FILE DELETE THIS PART
 import java.util.Collections;
 
 public class ListPractice {
 
-//DONE WITH FILE DELETE THIS PART
+
   public static void main(String[] args) {
     // Create an empty ArrayList of Strings and assign it to a variable of type List
       ArrayList<String> list = new ArrayList<String>();
